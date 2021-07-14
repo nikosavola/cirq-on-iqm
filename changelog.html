@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Changelog &#8212; Cirq on IQM 0.0.post1.dev1+ga30b351 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/nature.css" />
+    <link rel="stylesheet" type="text/css" href="_static/graphviz.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Contributors" href="authors.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="authors.html" title="Contributors"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Cirq on IQM 0.0.post1.dev1+ga30b351 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Changelog</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="changelog">
+<span id="changes"></span><h1>Changelog<a class="headerlink" href="#changelog" title="Permalink to this headline">¶</a></h1>
+<section id="version-0-7">
+<h2>Version 0.7<a class="headerlink" href="#version-0-7" title="Permalink to this headline">¶</a></h2>
+<section id="bugfixes">
+<h3>Bugfixes<a class="headerlink" href="#bugfixes" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Off-by-one error fixed in <a class="reference external" href="https://github.com/iqm-finland/cirq-on-iqm/blob/a2d09dab583434c89f569e711ac35085ec371342/src/cirq_iqm/iqm_device.py#L120">IQMDevice.map_circuit</a>. <a class="reference external" href="https://github.com/iqm-finland/cirq-on-iqm/pull/29">#29</a></p></li>
+</ul>
+</section>
+</section>
+<section id="version-0-6">
+<h2>Version 0.6<a class="headerlink" href="#version-0-6" title="Permalink to this headline">¶</a></h2>
+<section id="features">
+<h3>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Project setup updated. <a class="reference external" href="https://github.com/iqm-finland/cirq-on-iqm/pull/22">#22</a></p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">pyproject.toml</span></code> added.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">PyScaffold</span></code> dependency removed.</p></li>
+<li><p>Sphinx bumped to version 4.0.2.</p></li>
+<li><p>API docs generated using recursive <code class="docutils literal notranslate"><span class="pre">sphinx.ext.autosummary</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">tox</span></code> scripts for building docs, dist packages.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<section id="version-0-5">
+<h2>Version 0.5<a class="headerlink" href="#version-0-5" title="Permalink to this headline">¶</a></h2>
+<section id="id3">
+<h3>Features<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Gate decomposition and circuit optimization procedure simplified. <a class="reference external" href="https://github.com/iqm-finland/cirq-on-iqm/pull/21">#21</a></p></li>
+<li><p>Cirq dependency bumped to 0.11. <a class="reference external" href="https://github.com/iqm-finland/cirq-on-iqm/pull/23">#23</a></p></li>
+</ul>
+<p>NOTE: Before installing this version, please manually uninstall Cirq 0.10. See Cirq 0.11
+release notes for more details: <a class="reference external" href="https://github.com/quantumlib/Cirq/releases/tag/v0.11.0">https://github.com/quantumlib/Cirq/releases/tag/v0.11.0</a></p>
+</section>
+</section>
+<section id="version-0-4">
+<h2>Version 0.4<a class="headerlink" href="#version-0-4" title="Permalink to this headline">¶</a></h2>
+<section id="id6">
+<h3>Features<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Convert data to IQM internal format when running requests. <a class="reference external" href="https://github.com/iqm-finland/cirq-on-iqm/pull/20">#20</a></p></li>
+</ul>
+</section>
+</section>
+<section id="version-0-3">
+<h2>Version 0.3<a class="headerlink" href="#version-0-3" title="Permalink to this headline">¶</a></h2>
+<section id="id8">
+<h3>Features<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Settings file support. <a class="reference external" href="https://github.com/iqm-finland/cirq-on-iqm/pull/17">#17</a></p></li>
+</ul>
+</section>
+</section>
+<section id="version-0-2">
+<h2>Version 0.2<a class="headerlink" href="#version-0-2" title="Permalink to this headline">¶</a></h2>
+<section id="id10">
+<h3>Features<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Adonis native gate set updated, CZ-targeting decompositions added. <a class="reference external" href="https://github.com/iqm-finland/cirq-on-iqm/pull/15">#15</a></p></li>
+<li><p>Circuits can be sent to be executed remotely on IQM hardware. <a class="reference external" href="https://github.com/iqm-finland/cirq-on-iqm/pull/13">#13</a></p></li>
+</ul>
+</section>
+</section>
+<section id="version-0-1">
+<h2>Version 0.1<a class="headerlink" href="#version-0-1" title="Permalink to this headline">¶</a></h2>
+<p>Released 2021-04-21</p>
+<section id="id13">
+<h3>Features<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Supports the Adonis and Valkmusa architectures.</p></li>
+<li><p>Extends the OpenQASM language with gates native to the IQM architectures.</p></li>
+<li><p>Loads quantum circuits from OpenQASM files.</p></li>
+<li><p>Decomposes gates into the native gate set of the chosen architecture.</p></li>
+<li><p>Optimizes the circuit by merging neighboring gates, and commuting z rotations towards the end of the circuit.</p></li>
+<li><p>Circuits can be simulated using both the standard Cirq simulators and the
+<a class="reference external" href="https://quantumai.google/qsim">qsim</a> simulators.</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Changelog</a><ul>
+<li><a class="reference internal" href="#version-0-7">Version 0.7</a><ul>
+<li><a class="reference internal" href="#bugfixes">Bugfixes</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#version-0-6">Version 0.6</a><ul>
+<li><a class="reference internal" href="#features">Features</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#version-0-5">Version 0.5</a><ul>
+<li><a class="reference internal" href="#id3">Features</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#version-0-4">Version 0.4</a><ul>
+<li><a class="reference internal" href="#id6">Features</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#version-0-3">Version 0.3</a><ul>
+<li><a class="reference internal" href="#id8">Features</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#version-0-2">Version 0.2</a><ul>
+<li><a class="reference internal" href="#id10">Features</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#version-0-1">Version 0.1</a><ul>
+<li><a class="reference internal" href="#id13">Features</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="authors.html"
+                        title="previous chapter">Contributors</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/changelog.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="authors.html" title="Contributors"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Cirq on IQM 0.0.post1.dev1+ga30b351 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Changelog</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020–2021, Cirq on IQM developers.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
+    </div>
+  </body>
+</html>

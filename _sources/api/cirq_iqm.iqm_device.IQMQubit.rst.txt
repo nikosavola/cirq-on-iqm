@@ -1,0 +1,29 @@
+cirq\_iqm.iqm\_device.IQMQubit
+==============================
+
+.. currentmodule:: cirq_iqm.iqm_device
+
+.. autoclass:: IQMQubit
+   :members:
+   :private-members:
+   :show-inheritance:
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+   
+   
+
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~IQMQubit.__repr__
+   
+   

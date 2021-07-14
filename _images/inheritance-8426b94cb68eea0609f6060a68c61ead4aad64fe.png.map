@@ -1,0 +1,10 @@
+<map id="inheritance1a4e2614b0" name="inheritance1a4e2614b0">
+<area shape="rect" id="node1" href="cirq_iqm.iqm_device.DecomposeGatesFinal.html#cirq_iqm.iqm_device.DecomposeGatesFinal" target="_top" title="Decomposes gates during the final decomposition round." alt="" coords="205,104,373,129"/>
+<area shape="rect" id="node2" title="Makes circuit improvements focused on a specific location." alt="" coords="5,153,124,179"/>
+<area shape="rect" id="node4" href="cirq_iqm.iqm_device.DropRZBeforeMeasurement.html#cirq_iqm.iqm_device.DropRZBeforeMeasurement" target="_top" title="Drops z rotations that happen right before a z&#45;basis measurement." alt="" coords="187,153,391,179"/>
+<area shape="rect" id="node8" href="cirq_iqm.iqm_device.MergeOneParameterGroupGates.html#cirq_iqm.iqm_device.MergeOneParameterGroupGates" target="_top" title="Merges adjacent gates belonging to the same parametrized gate family." alt="" coords="172,203,405,228"/>
+<area shape="rect" id="node3" title="Hardware constraints for validating circuits." alt="" coords="29,55,101,80"/>
+<area shape="rect" id="node5" href="cirq_iqm.iqm_device.IQMDevice.html#cirq_iqm.iqm_device.IQMDevice" target="_top" title="ABC for the properties of a specific IQM quantum architecture." alt="" coords="242,55,335,80"/>
+<area shape="rect" id="node6" href="cirq_iqm.iqm_device.IQMQubit.html#cirq_iqm.iqm_device.IQMQubit" target="_top" title="NamedQubit that also has a unique integer index." alt="" coords="247,5,330,31"/>
+<area shape="rect" id="node7" title="A qubit identified by name." alt="" coords="13,5,117,31"/>
+</map>

@@ -1,0 +1,26 @@
+cirq\_iqm.iqm\_client.RunStatus
+===============================
+
+.. currentmodule:: cirq_iqm.iqm_client
+
+.. autoclass:: RunStatus
+   :members:
+   :private-members:
+   :show-inheritance:
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~RunStatus.FAILED
+      ~RunStatus.PENDING
+      ~RunStatus.READY
+   
+   
+
+
+   
+   
+   
